@@ -1,0 +1,240 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*navbar css*/
+
+.nav{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: sticky;
+  top:0;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  color: darkblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topleft,.topright{
+  flex : 4;
+  background-color: orange;
+  text-align: left;
+  display: flexbox;
+  color: blue;
+}
+
+.topcentre{
+  flex: 8;
+  background-color: tomato;
+  text-align: center;
+}
+
+.toplist{
+  font: bold;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  list-style-type:  none;
+
+}
+
+.topicons{
+  font-size: 30px;
+  display: flex;
+  cursor: pointer;
+ }
+
+.toplistitem{
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.topimage{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+/*header css*/
+
+.header{
+  margin-top: 30px;
+}
+
+.headtitle{
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-items: center;
+}
+
+.headtitleSM{
+  color: red;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 0 0 50px orange;
+  display:flex ;
+}
+
+.headertext{
+  color: chocolate;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.headerimg{
+  margin-top: 30px;
+  width : 600px;
+  height: auto;
+}
+
+/*home css*/
+
+.home{
+  display: flex;
+}
+
+/*sidebar css*/
+
+.sidebar{
+  flex: 4;
+  width: 10px;
+  height: 10px;
+  padding: 20px;
+  
+}
+
+.sidebartitle{
+  color: blueviolet;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  size: 10px;
+  margin-top: 10px;
+  display: flex;
+  background-color: beige;
+  text-align: center;
+}
+
+.sidebartext{
+  text-align: justify;
+  color: chocolate;
+  margin-bottom: 10px;
+}
+
+.sidebarlist{
+  list-style: square;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: grey;
+  cursor: pointer;
+}
+
+.sidebarimg{
+  margin-top: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.menuimage{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 250px;
+  height: 250px;
+}
+
+.chefimage{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 250px;
+  height: 250px;
+}
+
+.cheftext{
+  text-align: justify;
+  color: chocolate;
+}
+/*posts css*/
+
+.posts{
+  flex: 8;
+  width: 150px;
+  height: 150px;
+}
+  
+/*post css*/
+
+.post {
+  width: 385px;
+  margin: 0px 25px 40px 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.postimage{
+  width: 450px;
+  height: auto;
+  margin-top: 20px;
+
+}
+
+.posttitle{
+  margin-top: 20px;
+  color: crimson;
+  text-shadow: 0 0 25px yellow;
+  display: flex;
+}
+
+.posttext{
+  color: chocolate;
+  display: flex;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+
+
+
+
